@@ -11,12 +11,13 @@
 /log/
 /logs/
 
-/.classpath
-/.project
+*.classpath
+*.project
 /project.properties
 /lint.xml
 /upgrade.log
-/.classpath
+*.class
+*.bak
 
 
 
