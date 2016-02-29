@@ -16,7 +16,7 @@
         private transient Session session;  
           
         public Consumer() throws JMSException {  
-        	System.out.println(11111);
+        	System.out.println(22222);
             factory = new ActiveMQConnectionFactory(brokerURL);  
             connection = factory.createConnection();  
             connection.start();  
